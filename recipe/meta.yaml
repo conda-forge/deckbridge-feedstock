@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: deckbridge
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/deckbridge/deckbridge-{{ version }}.tar.gz
-  sha256: 0b20840af267d7399814ef9d4db4941381c75f41f2ee5b6d8c9e38284fecc4ab
+  sha256: 6404ed7e8fbc786472f0b075ca5b517717160c824df6ce5c672dc4a791c9d8b9
 
 build:
   noarch: python
